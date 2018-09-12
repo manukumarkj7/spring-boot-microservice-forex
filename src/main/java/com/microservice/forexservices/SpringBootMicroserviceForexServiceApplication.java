@@ -1,9 +1,10 @@
-package com.in28minutes.springboot.microservice.example.forex;
+package com.microservice.forexservices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import com.microservice.forexservices.*;
 
 @SpringBootApplication
 @EnableDiscoveryClient

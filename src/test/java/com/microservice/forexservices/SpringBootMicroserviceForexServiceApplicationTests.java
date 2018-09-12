@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.microservice.example.forex.springbootmicroserviceforexservice;
+package com.microservice.forexservices;
 
 import org.junit.Test;
 

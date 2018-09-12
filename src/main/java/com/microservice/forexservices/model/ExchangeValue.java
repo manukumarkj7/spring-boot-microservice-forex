@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.microservice.example.forex;
+package com.microservice.forexservices.model;
 import java.math.BigDecimal;
 
 import javax.persistence.Column;
