@@ -16,3 +16,66 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+### Eclipse template
+
+.metadata
+bin/
+tmp/
+.settings/
+.loadpath
+.recommenders
+.project
+.checkstyle
+.DS_Store
+.pmd
+.pmdruleset.xml
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+.eclipse-pmd
+
+
+hs_err_pid*
+hs_err_pid
+
+*.log
+asgardBase/.apt_generated/*
